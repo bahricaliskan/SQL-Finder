@@ -24,9 +24,9 @@ Hedef sitede tüm payloadları deneyerek size bilgi verecektir.
 
 You can use it to detect SQL vulnerability by automatically experimenting with payloads on the link on the target site.
 
-There are payloads for SQL vulnerabilities in the payload file. When you run the tool, you will encounter a place like enter the target website.
+There are payloads for SQL vulnerabilities in the payload file. When you run the tool you will encounter a place like enter the target website.
 
-Ex: www.hedefsite.com/index.php?id = it is important to enter the id part with style, it will share whether it is open to you by scanning the link directly on the target website.
+Ex: www.targetsite.com/index.php?id = it is important to enter the id part with style it will share whether it is open to you by scanning the link directly on the target website.
 
 It is very easy to use.
 

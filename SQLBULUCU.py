@@ -14,20 +14,20 @@ class SimpleSQLFinder:
             "Microsoft OLE DB Provider for SQL Server",
             "Unclosed quotation mark before the character string",
             "Syntax error converting the nvarchar value",
-            # MySQL'e özgü diğer hata mesajları
+            
         ]
         self.sql_error_messages_postgresql = [
             "error in your SQL syntax",
             "PostgreSQL server version for the right syntax to use",
             "supplied argument is not a valid PostgreSQL",
             "You have an error in your SQL syntax",
-            # PostgreSQL'e özgü diğer hata mesajları
+           
         ]
         self.sql_error_messages_mssql = [
             "Unclosed quotation mark after the character string",
             "Microsoft OLE DB Provider for SQL Server",
             "Incorrect syntax near",
-            # MSSQL'e özgü diğer hata mesajları
+            
         ]
 
     def load_payloads(self):
@@ -56,7 +56,7 @@ class SimpleSQLFinder:
 
 if __name__ == "__main__":
     print(colored("***************************************", 'blue'))
-    print(colored("**        SQL SCANNER 2         **", 'blue'))
+    print(colored("**        SQL SCANNER          **", 'blue'))
     print(colored("***************************************\n", 'blue'))
 
     target_url = input(colored("Hedef linki girin: ", 'yellow'))

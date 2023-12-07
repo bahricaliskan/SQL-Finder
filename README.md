@@ -1,4 +1,4 @@
-# SQL-Finder
+# SQL-Finder V1
 
 Hedef sitedeki link üzerinde otomatik olarak payloadları deneme yaparak SQL açığı tespit etmede kullanabilirsiniz. 
 
